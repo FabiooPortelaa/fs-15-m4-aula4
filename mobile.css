@@ -5,6 +5,11 @@
 }
 /* mobile fisrt */
 
+button {
+    background-color: aqua;
+    border: none;
+}
+
 .container{
     width: 1000%;
     height: 100vh;
