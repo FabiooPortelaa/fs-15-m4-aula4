@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* mobile fisrt */
+
+.container{
+    width: 1000%;
+    height: 100vh;
+    background: red;
+}
+@media only screen and (min-width= 768px) {
+      .container{
+        background: yellowgreen;
+        height: 500px;
+      }
+}
+@media only screen and (min-width= 1200px){
+    .container{
+        background: rgb(0, 35, 35);
+        height: 300px;
+    }
+}
